@@ -1,0 +1,7 @@
+*.jpg
+*.mp4
+*.txt
+*.csv
+*.zip
+.DS_Store
+*.pt
