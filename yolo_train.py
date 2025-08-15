@@ -10,6 +10,6 @@ if __name__ == "__main__":
     results = model.train(data = dataset_yaml,
                         epochs = 100,
                         imgsz = 640,
-                        workers = 4)
+                        workers = 1)
 
 
