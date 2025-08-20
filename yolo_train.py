@@ -14,6 +14,7 @@ if __name__ == "__main__":
         add_wandb_callback(model,enable_model_checkpointing=True)
         results = model.train(project = "football-player-tracking",
                             data = dataset_yaml,
+                            cfg = r'cfg\default.yaml',
                             epochs = 100,
                             imgsz = 640,
                             workers = 1)
