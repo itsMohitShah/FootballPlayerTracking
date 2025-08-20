@@ -7,3 +7,10 @@
 *.zip
 .DS_Store
 *.pt
+*.avi
+*.yaml
+*.log
+*.json
+wandb/
+*.pdf
+*.cache
